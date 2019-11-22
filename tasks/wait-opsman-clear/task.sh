@@ -29,7 +29,8 @@ function main() {
   while :
   do
 
-      om-linux --target "https://${OPSMAN_DOMAIN_OR_IP_ADDRESS}" \
+           om-linux --help
+           om-linux --target "https://${OPSMAN_DOMAIN_OR_IP_ADDRESS}" \
            --skip-ssl-validation \
            --client-id "${OPSMAN_CLIENT_ID}" \
            --client-secret "${OPSMAN_CLIENT_SECRET}" \
